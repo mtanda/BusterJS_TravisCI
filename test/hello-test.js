@@ -9,3 +9,8 @@ buster.testCase("Src Test", {
         assert.equals(hello(), "HELLO");
     }
 })
+buster.testCase("Src Test2", {
+    "should be FOO" : function(){
+        assert.equals(foo(), "FOO");
+    }
+})

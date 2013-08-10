@@ -6,3 +6,6 @@
 function hello(){
     return "HELLO";
 }
+function foo(){
+    return "FOO";
+}
